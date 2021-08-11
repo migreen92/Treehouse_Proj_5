@@ -1,0 +1,45 @@
+/* UNIVERSAL */
+body {
+  position: relative;
+}
+
+figure {
+  display: block;
+  margin-inline-start: 1em;
+  margin-inline-end: 1em;
+}
+figcaption {
+  width:100%;
+}
+
+img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ /* SEARCH BOX */
+
+.search {
+  height: 100px;
+  display: flex;
+}
+
+
+input[type="search"] {
+  align-self: center;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  max-width: 600px;
+}
+
+ /* IMAGE GRID */
+.gallery {
+  margin: auto;
+  display: grid;
+  max-width: 1000px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
