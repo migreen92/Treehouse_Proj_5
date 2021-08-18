@@ -26,7 +26,7 @@ img {
 }
 
 
-input[type="search"] {
+input[type="text"] {
   align-self: center;
   padding: 10px;
   margin-left: auto;
