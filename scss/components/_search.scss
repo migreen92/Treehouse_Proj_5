@@ -1,0 +1,14 @@
+input[type="text"] {
+  align-self: center;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  max-width: 600px;
+  background-color: $color-one;
+}
+
+.search {
+  height: 100px;
+  display: flex;
+}
