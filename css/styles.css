@@ -3,10 +3,12 @@ body {
   position: relative;
 }
 
-figure {
+.image {
   display: block;
-  margin-inline-start: 1em;
-  margin-inline-end: 1em;
+  margin-top: .5em;
+  margin-inline-start: .5em;
+  margin-bottom: .5em;
+  margin-inline-end: .5em;
 }
 figcaption {
   width:100%;
